@@ -1,3 +1,7 @@
+<% if (page.source == 'dragon-breath/index.md') { %>
+    <%- partial('_partial/dragon_breath') %>
+<% } else { %>
+
 <!DOCTYPE html>
 <html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
 <%- partial('_partial/head') %>
@@ -19,3 +23,4 @@
     <%- partial('_partial/scripts') %>
 </body>
 </html>
+<% } %>
