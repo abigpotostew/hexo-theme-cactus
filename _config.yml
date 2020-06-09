@@ -17,7 +17,7 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  test: /test-page/
+  #test: /test-page/
   Dragon Breath: /static/dragon-breath/
   #projects: projects_url
 
@@ -27,10 +27,11 @@ nav:
 # only 'mail' is an exception.
 social_links:
   github: https://github.com/abigpotostew
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  instagram: https://www.instagram.com/stewbracken
+  #twitter: /
+  #facebook: /
+  #linkedin: /
+  #mail: mailto:name@email.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
